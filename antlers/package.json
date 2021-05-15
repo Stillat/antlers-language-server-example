@@ -1,0 +1,18 @@
+{
+	"name": "antlers-ls-sample",
+	"description": "A sample Antlers language server extension.",
+	"version": "1.0.0",
+	"author": "",
+	"license": "MIT",
+	"engines": {
+		"node": "*",
+		"antlers": "1"
+	},
+	"main": "./out/extension",
+	"dependencies": {
+		"vscode-languageserver": "^7.0.0",
+		"vscode-languageserver-textdocument": "^1.0.1"
+	},
+	"scripts": {},
+	"devDependencies": {}
+}

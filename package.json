@@ -1,0 +1,33 @@
+{
+    "name": "vscode-antlers-test",
+    "displayName": "Test Extension",
+    "description": "Test Antlers language server extension.",
+    "author": "",
+    "license": "MIT",
+    "version": "1.0.0",
+    "publisher": "stillat",
+    "keywords": [
+        "statamic"
+    ],
+    "categories": [],
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "activationEvents": [
+        "onLanguage:html"
+    ],
+    "main": "./client/out/extension",
+    "contributes": {},
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -b",
+        "watch": "tsc -b -w",
+        "postinstall": "cd client && npm install && cd ../antlers && npm install && cd .."
+    },
+    "devDependencies": {
+        "typescript": "^4.2.4"
+    },
+    "dependencies": {
+        "typedoc": "^0.20.36"
+    }
+}

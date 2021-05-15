@@ -1,0 +1,21 @@
+{
+    "name": "antlers-sample-client",
+    "description": "A sample Antlers language server extension client.",
+    "author": "",
+    "license": "MIT",
+    "version": "0.0.1",
+    "publisher": "stillat",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "keywords": [
+        "statamic"
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "@types/vscode": "^1.52.0"
+    }
+}
